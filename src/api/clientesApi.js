@@ -1,7 +1,6 @@
 import axios from "axios";
 
-// URL base de tu API en Azure
-const BASE_URL = "https://apifinal2-bsgcdscjcbe0dbht.mexicocentral-01.azurewebsites.net/api/Clientes";
+
 
 // Helper para armar headers con token
 const authHeaders = (token) => ({
